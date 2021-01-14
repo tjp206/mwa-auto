@@ -5,7 +5,7 @@ const AboutContainer = () => {
     return(
         <>
         <h1>About</h1>
-        <p>About me goes here</p>
+        <p>Home/About me goes here</p>
         </>
     )
 }

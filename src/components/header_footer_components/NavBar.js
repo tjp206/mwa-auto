@@ -5,19 +5,16 @@ const NavBar = () => {
 
     return(
         <header>
-            <img width="20%" src="/NhsLogo.png" alt="NHS Logo"/>
+            <img src="/mwa.jpg" alt="MWA Auto Logo"/>
         <ul>
             <li className="navLink">
                 <a href="/">Home</a>
             </li>
             <li className="navLink">
-                <a href="/user">User Page</a>
+                <a href="/services">Services</a>
             </li>
             <li className="navLink">
-                <a href="/services">Find Services</a>
-            </li>
-            <li className="navLink">
-                <a href="/reminders">Reminders</a>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
         </header>

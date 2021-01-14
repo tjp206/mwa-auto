@@ -1,35 +1,37 @@
 import React from 'react';
-import PriceContainer from './PriceContainer'
-import AboutContainer from './AboutContainer'
-import ServicesContainer from './ServicesContainer'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import ContactContainer from './ContactContainer';
+import AboutContainer from './AboutContainer';
+import ServicesContainer from './ServicesContainer';
+import NavBar from '../components/header_footer_components/NavBar';
+import FooterComponent from '../components/header_footer_components/FooterComponent';
+import './MainAppContainer.css'
+
 
 const MainAppContainer = () => {
 
     return(
-        <>
-        <h1>MWA Auto Performance</h1>
-        <PriceContainer />
-        <ServicesContainer />
-        <AboutContainer />
-        </>
-        /* <Router>
+        // <>
+        // <h1>MWA Auto Performance</h1>
+        // <ContactContainer />
+        // <ServicesContainer />
+        // <AboutContainer />
+        // </>
+        <Router>
         <>
         <NavBar /> 
         <section>
             <Switch>
-                <Route exact path="/" component={ConditionsContainer} />
+                <Route exact path="/" component={AboutContainer} />
 
-                <Route exact path="/services" component={ServicesContainer} />
+                <Route exact path="/contact" component={ContactContainer} />
                 
-                <Route exact path="/user" component={UserContainer} />
-
-                <Route exact path='/reminders' component={ReminderContainer} />
+                <Route exact path="/services" component={ServicesContainer} />
         </Switch>
         </section>
         <FooterComponent />
         </>
-        </Router> */
+        </Router>
     )
 }
 

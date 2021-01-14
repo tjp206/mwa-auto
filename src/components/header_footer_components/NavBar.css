@@ -1,5 +1,6 @@
 header {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(136, 107, 54);
     position: fixed;
     top: 0;
     display: flex;
@@ -9,15 +10,32 @@ header {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     z-index: 1;
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
 }
 
 header > img {
-    width: 250px;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px 0 rgb(136, 107, 54), 0 6px 12px 0 rgb(159, 163, 162);
 }
 
 header > ul {
     display: flex;
     flex-direction: row;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+ul > li a {
+    color: rgb(136, 107, 54);
+    font-size: large;
+    text-decoration: none;
+}
+
+ul > li a:hover {
+    color: rgb(159, 163, 162);
+    text-decoration: underline;
 }
 
 .navLink {

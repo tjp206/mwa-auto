@@ -1,11 +1,27 @@
 footer {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(136, 107, 54);
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 15px 0;
+    box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    
 }
 
-footer > a > img {
-    width: 200px;
+a {
+    color: rgb(136, 107, 54);
+    list-style-type: none;
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(159, 163, 162);
+    text-decoration: underline;
+}
+
+.footLink {
+    list-style-type: none;
+    padding: 25px;
 }
