@@ -4,9 +4,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    viewport-fit: cover;
     padding: 15px 0;
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-    
 }
 
 a {
@@ -21,7 +21,23 @@ a:hover {
     text-decoration: underline;
 }
 
+.copyright {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
 .footLink {
+    font-size: medium;
     list-style-type: none;
-    padding: 25px;
+    padding: 5px;
+}
+
+.socialIcon {
+    margin: 0 7.5px;
+    border-radius: 50%;
+    /* box-shadow: 0 3px 6px 0 rgb(159, 163, 162); */
+}
+
+.socialIcon:hover {
+    box-shadow: 4px 4px 8px 0 rgb(159, 163, 162), 0 6px 12px 0 rgb(159, 163, 162);
 }

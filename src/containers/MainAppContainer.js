@@ -11,12 +11,6 @@ import './MainAppContainer.css'
 const MainAppContainer = () => {
 
     return(
-        // <>
-        // <h1>MWA Auto Performance</h1>
-        // <ContactContainer />
-        // <ServicesContainer />
-        // <AboutContainer />
-        // </>
         <Router>
         <>
         <NavBar /> 
