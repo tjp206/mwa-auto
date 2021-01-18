@@ -1,11 +1,11 @@
 import React from 'react';
+import AboutDetailComponent from '../components/header_footer_components/AboutComponents/AboutDetailComponent';
 
 const AboutContainer = () => {
 
     return(
         <>
-        <h1>About</h1>
-        <p>Home/About me goes here</p>
+            <AboutDetailComponent />
         </>
     )
 }

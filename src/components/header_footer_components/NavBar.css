@@ -1,7 +1,7 @@
 header {
     background-color: rgb(0, 0, 0);
     color: rgb(136, 107, 54);
-    position: relative;
+    position: sticky;
     top: 0;
     display: flex;
     flex-direction: row;
@@ -9,7 +9,7 @@ header {
     viewport-fit: cover;
     justify-content: space-around;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
+    font-weight: 750;
     z-index: 1;
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
 }
@@ -62,8 +62,21 @@ ul > li a:hover {
       width: cover;
     }
 
+    .navLink {
+      float: none;
+      display: block;
+      padding-left: 15px;
+    }
+
     header > img {
       margin-left: 25px;
+      width: 50px;
+    }
+
+    header > ul {
+      justify-content: center;
+      position: center;
+      padding-top: 5px;
     }
   }
   
@@ -84,8 +97,21 @@ ul > li a:hover {
       width: cover;
     }
 
+    .navLink {
+      float: none;
+      display: block;
+      padding-left: 15px;
+    }
+
     header > img {
       margin-left: 25px;
+      width: 50px;
+    }
+
+    header > ul {
+      justify-content: center;
+      position: center;
+      padding-top: 5px;
     }
   }
   
@@ -106,8 +132,21 @@ ul > li a:hover {
       width: cover;
     }
 
+    .navLink {
+      float: none;
+      display: block;
+      padding-left: 15px;
+    }
+
     header > img {
       margin-left: 25px;
+      width: 50px;
+    }
+
+    header > ul {
+      justify-content: center;
+      position: center;
+      padding-top: 5px;
     }
   }
   

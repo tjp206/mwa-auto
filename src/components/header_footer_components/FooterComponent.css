@@ -1,7 +1,7 @@
 footer {
     background-color: rgb(0, 0, 0);
     color: rgb(136, 107, 54);
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     viewport-fit: cover;
@@ -40,4 +40,22 @@ a:hover {
 
 .socialIcon:hover {
     box-shadow: 4px 4px 8px 0 rgb(159, 163, 162), 0 6px 12px 0 rgb(159, 163, 162);
+}
+
+@media (max-width: 320px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 375px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        position: relative;
+    }
 }
