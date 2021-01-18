@@ -17,7 +17,7 @@ header {
 header > img {
     width: 100px;
     margin: 15px 0;
-    padding: 15px;
+    padding: 5px;
     border-radius: 50%;
     box-shadow: 4px 4px 8px 0 rgb(136, 107, 54), 0 6px 12px 0 rgb(159, 163, 162);
 }
@@ -46,7 +46,7 @@ ul > li a:hover {
 }
 
 @media (max-width: 320px) {
-    header {
+  header {
       background-color: rgb(0, 0, 0);
       color: rgb(136, 107, 54);
       position: relative;
@@ -59,7 +59,13 @@ ul > li a:hover {
       font-weight: 700;
       z-index: 1;
       box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-      width: fit-content;
+      width: cover;
+    }
+
+    header > img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   
@@ -77,7 +83,7 @@ ul > li a:hover {
       font-weight: 700;
       z-index: 1;
       box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-      width: fit-content;
+      width: cover;
     }
   }
   
@@ -95,7 +101,7 @@ ul > li a:hover {
       font-weight: 700;
       z-index: 1;
       box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
-      width: fit-content;
+      width: cover;
     }
   }
   
