@@ -3,7 +3,8 @@ import './ContactDetail.css'
 
 const ContactDetailComponent = () => {
     return(
-
+        <>
+        </>
     )
 }
 

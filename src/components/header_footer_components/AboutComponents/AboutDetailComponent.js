@@ -35,7 +35,7 @@ const AboutDetailComponent = () => {
                 those which are fitted with advanced emissions control equipment.
                 </p>
 
-                <p>Petrol cars are usually less susceptible to ‘coking up’, as the fuel is actually quite good at cleaning the components as it passes through.
+                <p>Petrol cars are usually less susceptible to ‘choking up’, as the fuel is actually quite good at cleaning the components as it passes through.
                 However, many modern engines use Gasoline Direct Injection to improve efficiency where petrol is squirted directly into the combustion chamber and doesn’t get passed over as many parts.
                 This means some GDI engines have a reputation for becoming clogged.
                 </p>

@@ -1,7 +1,7 @@
 footer {
     background-color: rgb(0, 0, 0);
     color: rgb(136, 107, 54);
-    position: sticky;
+    position: relative;
     bottom: 0;
     width: 100%;
     viewport-fit: cover;
