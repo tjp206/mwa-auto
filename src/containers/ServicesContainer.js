@@ -1,11 +1,11 @@
 import React from 'react';
+import ServiceDetailComponent from '../components/header_footer_components/ServiceComponents/ServiceDetailComponent';
 
 const ServicesContainer = () => {
 
     return(
         <>
-        <h1>Services</h1>
-        <p>services go here</p>
+            <ServiceDetailComponent />
         </>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react';
+import ContactDetailComponent from '../components/header_footer_components/ContactComponents/ContactDetailComponent';
 
 const ContactContainer = () => {
 
     return(
         <>
-        <h1>Contacts</h1>
-        <p>Contact information goes here</p>
+        <ContactDetailComponent />
         </>
     )
 }

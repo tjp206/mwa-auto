@@ -1,0 +1,20 @@
+.serviceDetail > ul {
+    list-style-type: square;
+}
+
+.carbonPic {
+    display: inline-block;
+    max-width: 800px;
+    margin: 8px;
+    width: 50%;
+    border-radius: 12.5px;
+    box-shadow: 0px 0px 6px 1.5px rgba(41,41,41,.25);
+}
+.remapPic {
+    display: inline-block;
+    max-width: 800px;
+    margin: 8px;
+    width: 55%;
+    border-radius: 12.5px;
+    box-shadow: 0px 0px 6px 1.5px rgba(41,41,41,.25);
+}
