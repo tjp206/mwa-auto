@@ -2,8 +2,6 @@
 
 Web app built with React.js for a local small business owner who wanted something, 'simple but effective'.
 
-Tech Stack: React, HTML, CSS, Firebase.
-
 ![project3](https://user-images.githubusercontent.com/64153997/105491145-c50d1a80-5cad-11eb-8eaa-fb19aa37f1cd.png)
 
 ### To view the live app, please click on the URL in this repo's "About" section found on the top-right hand side of the page.
