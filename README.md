@@ -4,20 +4,6 @@
 
 ![project3](https://user-images.githubusercontent.com/64153997/105491145-c50d1a80-5cad-11eb-8eaa-fb19aa37f1cd.png)
 
-This app allows a user to search for various health conditions using the NHS API. Search by entering text into the search field or recording a search with your voice. Whilst using the search function, please allow some time for the data to be pulled from the API, it's a tricky API and sometimes results may take a little longer than normal. Please also note that for the live version of the app found in the "About" section, only the front end is currently deployed, there will be no access to the database and any information stored there - ie; users, calendar info, etc.
-
-### MVP
-* Use NHS API
-* Users should be able to search for common health questions
-* Use Speech Recognition for searching API results
-* Database for storing favourite articles and personal details
-
-### Extensions
-* Add Reminders section for GP appointments etc.
-* Add Speech Synthesis for reading out search results
-* Integrate additional APIs - e.g. NHS Services
-* Integrate Maps for displaying local GPs, Pharmacies etc.
-
 To view the live app, please click on the URL in this repo's "About" section found on the top-right hand side of the page.
 
 Alternatively, to run the code found in this repository:
